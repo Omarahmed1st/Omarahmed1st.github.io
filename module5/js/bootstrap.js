@@ -3,11 +3,9 @@
  * Copyright 2011-2015 Twitter, Inc.
  * Licensed under the MIT license
  */
-
 if (typeof jQuery === 'undefined') {
   throw new Error('Bootstrap\'s JavaScript requires jQuery')
 }
-
 +function ($) {
   'use strict';
   var version = $.fn.jquery.split(' ')[0].split('.')
