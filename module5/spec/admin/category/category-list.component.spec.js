@@ -1,7 +1,6 @@
 describe('The categoryList component', function() {
   'use strict';
 
-  
   var categoryListComponent;
   var $rootScope;
   var $httpBackend;
