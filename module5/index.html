@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -6,7 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>David Chu's China Bistro</title>
     <link rel="icon" href="images/restaurant-logo-favicon.png" type="image/png" sizes="16x16">
-    <link rel="stylesheet" href="css/bootstrap.css">
+    <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/restaurant.css">
     <link rel="stylesheet" href="css/common.css">
   </head>
@@ -50,11 +53,11 @@
                   <span class="glyphicon glyphicon-cutlery"></span><br class="hidden-xs"> Menu</a>
               </li>
               <li>
-                <a href="#">
+                <a ui-sref="public.about">
                   <span class="glyphicon glyphicon-info-sign"></span><br class="hidden-xs"> About</a>
               </li>
               <li>
-                <a href="#">
+                <a ui-sref="public.awards">
                   <span class="glyphicon glyphicon-certificate"></span><br class="hidden-xs"> Awards</a>
               </li>
               <li id="phone" class="hidden-xs">
@@ -111,7 +114,7 @@
 
     <!-- Libs -->
     <script src="lib/jquery-2.1.4.min.js"></script>
-    <script src="lib/bootstrap.js"></script>
+    <script src="lib/bootstrap.min.js"></script>
     <script src="lib/angular.min.js"></script>
     <script src="lib/angular-ui-router.min.js"></script>
     <script src="lib/ng-file-upload/ng-file-upload-shim.min.js"></script>
