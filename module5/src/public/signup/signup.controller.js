@@ -1,5 +1,5 @@
 (function() {
-    'use strict';
+    'use strict'; 
 
     var signupController = function(MenuService) {
         var vm = this;
